@@ -1,7 +1,9 @@
 package ru.netology.domain;
 
 public class Comment {
-    private int id;
     private int count;
-    private String urlIcon;
+    private int canPost;
+    private int groups_can_post;
+    private boolean canClose;
+    private boolean canOpen;
 }
